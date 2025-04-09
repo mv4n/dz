@@ -1,0 +1,25 @@
+.journal-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+}
+.journal-form input,
+.journal-form textarea {
+    font-size: inherit;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.03);
+    color: #fff;
+    border: none;
+    width: 100%;
+    resize: none;
+}
+
+.invalid {
+    outline: 2px solid red;
+}
+
+.valid {
+    outline: 2px solid green;
+}

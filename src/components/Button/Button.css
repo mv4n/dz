@@ -1,0 +1,27 @@
+.button {
+    border-radius: 8px;
+    padding: 8px 30px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: inherit;
+    color: #fff;
+    border: 2px solid transparent;
+
+    --color-hover: #252525;
+    background: var(--color-hover);
+}
+.accent {
+    --color-hover: #312eb5;
+}
+.warning {
+    --color-hover: #8e0a0a;
+}
+
+.button:hover {
+    /*background-color: #fff;*/
+    background-color: transparent;
+    color: var(--color-hover);
+    border-color: var(--color-hover);
+}
+

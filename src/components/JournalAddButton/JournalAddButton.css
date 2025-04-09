@@ -1,0 +1,7 @@
+.add-button {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 10px;
+    margin-bottom: 30px;
+}
